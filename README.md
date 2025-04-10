@@ -19,6 +19,7 @@ It combines a clean user interface with robust backend operations to simulate a 
 - MySQL (database)
 - SMTP (for email billing)
 - Environment variables for DB config (secure deployment)
+- 🎨 UI designed in Figma and implemented using Tkinter Canvas for a clean, custom look
 
 ## 📂 Modules and Structure
 
