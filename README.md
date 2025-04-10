@@ -28,6 +28,24 @@ It combines a clean user interface with robust backend operations to simulate a 
 - OTP and email integration modules
 - Separate databases for user data and purchase details
 
+⚙️ Setup Instructions
+🔧 Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+🐬 MySQL required – app auto-creates DB & tables on first run. Make sure MySQL is installed & running.
+
+📁 Create a .env file in the root folder with:
+```env
+DB_HOST=localhost
+DB_USER=your_mysql_username
+DB_PASSWORD=your_mysql_password
+EMAIL_API_KEY=your_email_api_key
+SENDER_EMAIL=your_email@example.com
+```
+📧 Use your email API key, not your personal email password.
+
 ---
 
 # LittleTome-Ecommerce-App
