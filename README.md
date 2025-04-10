@@ -41,7 +41,7 @@ pip install -r requirements.txt
 DB_HOST=localhost
 DB_USER=your_mysql_username
 DB_PASSWORD=your_mysql_password
-EMAIL_API_KEY=your_email_api_key
+API_KEY=your_email_api_key
 SENDER_EMAIL=your_email@example.com
 ```
 📧 Use your email API key, not your personal email password.
